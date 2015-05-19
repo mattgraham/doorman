@@ -214,7 +214,7 @@ header {
 
   &:after {
     display: inline-block;
-    content: 'Close Door';
+    content: 'Close Garage Door';
   }
 
   &:hover {
@@ -224,7 +224,7 @@ header {
 
   &.closed:after {
     display: inline-block;
-    content: 'Open Door';
+    content: 'Open Garage Door';
   }
 }
 
