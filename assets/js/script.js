@@ -3,8 +3,4 @@ $(document).ready(function() {
 		e.preventDefault();
 		$.get("/?trigger=1");
 	});
-
-	$('.button').click(function(){
-	  $('.button').toggleClass('closed');
-	});
 });
