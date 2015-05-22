@@ -15,6 +15,7 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone-retina-display.png" />
 		<link rel="stylesheet" href="/assets/stylesheets/screen.css" type="text/css">
+
 		<script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="/assets/js/script.js"></script>
 
@@ -25,7 +26,7 @@
 			<h1>Doorman<span class="beta">Beta</span></h1>
 		</header>
 		<div class="wrapper main">
-    	<button href='/?trigger=1' class="button closed"></button>
+    	<a href='/?trigger=1' class="button closed"></a>
 		</div>
 	</body>
 </html>
