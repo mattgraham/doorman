@@ -54,6 +54,8 @@ header {
 }
 
 .button {
+  text-align: center;
+  display: inline-block;
   box-sizing: border-box;
   width: 100%;
   background: #FEAE00;
@@ -88,7 +90,14 @@ header {
   }
 }
 
-a {
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: rgba(#fff, .4);
+}
+
+/* a {
   display: inline-block;
   padding: 10px 30px;
   display:inline-block;
@@ -98,5 +107,6 @@ a {
 }
 
 a:active {
-	background:#ADAAAA;
+  background:#ADAAAA;
 }
+ */

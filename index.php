@@ -28,5 +28,8 @@
 		<div class="wrapper main">
     	<a href='/?trigger=1' class="button closed"></a>
 		</div>
+		<footer>
+			Raspberry Pi Powered
+		</footer>
 	</body>
 </html>
