@@ -53,6 +53,36 @@ header {
   padding: 20px;
 }
 
+label {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+
+input {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  -webkit-appearance: none;
+}
+
+input[type=text], input[type=password], input[type=number] {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  border: none;
+  font: 16px/16px Helvetica, Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  padding: 16px;
+  outline: 0;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+}
+
 .button {
   text-align: center;
   display: inline-block;
@@ -69,6 +99,7 @@ header {
   padding: 16px;
   transition: all 150ms ease;
   outline: 0;
+  -webkit-appearance: none;
 
   :focus {
     outline: 0;

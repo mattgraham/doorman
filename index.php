@@ -42,8 +42,8 @@
 
 					<form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 				   <label for="txtpassword">Password:</label>
-				    <input type="password" title="Enter your password" name="txtPassword" />
-				    <input type="submit" name="Submit" value="Login" />
+				    <input title="Enter your password" name="txtPassword" type="number" pattern="[0-9]*" />
+				    <input type="submit" name="Submit" value="Login" class="button" />
 					</form>
 				</div>
 
