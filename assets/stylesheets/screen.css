@@ -132,6 +132,7 @@ input[type=text], input[type=password], input[type=number] {
   outline: 0;
   margin-bottom: 10px;
   -webkit-appearance: none;
+  -webkit-text-security: disc;
 }
 
 .button {
