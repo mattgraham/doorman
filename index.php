@@ -25,9 +25,42 @@
 		<header class="wrapper">
 			<h1>Doorman<span class="beta">Beta</span></h1>
 		</header>
-		<div class="wrapper main">
-    	<a href='/?trigger=1' class="button closed"></a>
-		</div>
+
+
+
+		<?php
+		error_reporting(E_ALL ^ E_NOTICE);
+
+			// Define your username and password
+			$password = '0007';
+
+			if ($_POST['txtPassword'] != $password) {
+
+				?>
+
+				<div class="wrapper main">
+
+					<form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+				   <label for="txtpassword">Password:</label>
+				    <input type="password" title="Enter your password" name="txtPassword" />
+				    <input type="submit" name="Submit" value="Login" />
+					</form>
+				</div>
+
+				<?php
+				}
+
+			else {
+			?>
+
+			<div class="wrapper main">
+	    	<a href='/?trigger=1' class="button closed"></a>
+			</div>
+
+			<?php
+			}
+		?>
+
 		<footer>
 			Raspberry Pi Powered
 		</footer>
