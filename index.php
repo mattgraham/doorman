@@ -15,7 +15,6 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone-retina-display.png" />
 		<link rel="stylesheet" href="/assets/stylesheets/screen.css" type="text/css">
-
 		<script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="/assets/js/script.js"></script>
 
@@ -25,7 +24,13 @@
 		<header class="wrapper">
 			<h1>Doorman<span class="beta">Beta</span></h1>
 		</header>
-
+		<script type="text/javascript">
+			moveOnMax =function (field, nextFieldID) {
+		    if (field.value.length == 1) {
+		        document.getElementById(nextFieldID).focus();
+		    }
+			}
+		</script>
 
 
 		<?php
@@ -42,7 +47,9 @@
 
 					<form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 				   <label for="txtpassword">Password:</label>
+
 				    <input title="Enter your password" name="txtPassword" type="number" pattern="[0-9]*" />
+
 				    <input type="submit" name="Submit" value="Login" class="button" />
 					</form>
 				</div>
