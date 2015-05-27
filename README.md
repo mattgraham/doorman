@@ -1,9 +1,10 @@
-# doorman
-#### Raspberry Pi Garage Door Opener
-
-![image](https://cloud.githubusercontent.com/assets/51578/7694499/4391aad8-fdaf-11e4-87b8-ef1b6f4bc295.png)
-
+# Doorman Beta
 This is the beginning to my raspberry pi garage door opener. For basically for about $50 on amazon and some tinkering we'll have a web-based door opener.
+
+### .env
+Your password will need to be stored in an .env file similar to the .env.sample inside the repo.
+
+![ios simulator screen shot may 27 2015 10 09 25 am](https://cloud.githubusercontent.com/assets/51578/7837942/32492788-0458-11e5-9851-71353a70e806.png)
 
 #### Parts List
 - Raspberry Pi
