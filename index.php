@@ -1,4 +1,9 @@
 <?php
+
+	require 'vendor/autoload.php';
+
+	Dotenv::load(__DIR__);
+
 	if(isset($_GET['trigger']) && $_GET['trigger'] == 1) {
 		error_reporting(E_ALL);
 		exec('gpio write 7 0');
@@ -37,9 +42,9 @@
 		error_reporting(E_ALL ^ E_NOTICE);
 
 			// Define your username and password
-			$password = '0007';
+			$password = getenv('password');
 
-			if ($_POST['txtPassword'] != $password) {
+			if (!($_POST['txtPassword'] === $password)) {
 
 				?>
 
