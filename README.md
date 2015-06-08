@@ -3,6 +3,7 @@ This is the beginning to my raspberry pi garage door opener. For basically for a
 
 ![image](https://cloud.githubusercontent.com/assets/51578/7838080/ff5ad49c-0458-11e5-8260-eea357e2a24a.png)
 
+FWIW: I roughly followed these [instructables](http://www.instructables.com/id/Raspberry-Pi-Garage-Door-Opener/step1/Install-and-Optimize-Rasbian-for-our-purposes/) to get this started. I'll reoutline everything in time but for now you'll have a good stating point.
 
 ### .env
 Your password will need to be stored in an .env file similar to the .env.sample inside the repo.
